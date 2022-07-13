@@ -1,5 +1,8 @@
 body {
-    background-color:#D3E4CD;
+    /* background-color:#D3E4CD; */
+    margin: 0;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 hr {
@@ -13,12 +16,17 @@ hr {
 }
 
 h1 {
- color:#66bfbf;   
+ color:black;   
+ margin-top: 0;
+ position: relative;
+ top: 50px;
 }
 
-h3 {
- color:#66bfbf;
-}
+/* h3 {
+ color:black;
+ position: relative;
+ top: 50px;
+} */
 
 
 
@@ -28,6 +36,65 @@ h3 {
     color: gray;
 }
 
+.top-div {
+    position: relative;
+    padding: 100px 0 0 0;
+    /* width: 600px; */
+    background-color: #66bfbf;
+}
+
+.middle-div {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+
+.bottom-div {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+}
+
+.span-edit {
+    text-emphasis: inherit;
+    text-decoration-line: underline;
+    text-decoration-color: green; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 400px;
+}
+
+.top-cloud {
+    /* position: relative; */
+    position: absolute;
+    top: 100px;
+    right: 400px;
+}
+.para-top {
+    position: relative;
+    top: 40px;
+    /* right: 350px; */
+}
+
+.bottom-mount {
+    position: relative;
+}
+
+.profile-image {
+    border-radius: 50%;
+}
+
+.skill-image {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
 /**************************************ID selector*************************************************/
 
 /* #review {
